@@ -1,4 +1,4 @@
-package main
+package ass1
 
 type JobSite struct {
 	subscibers []Observer
