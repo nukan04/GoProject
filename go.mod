@@ -1,3 +1,3 @@
-module awesomeProject1
+module main
 
 go 1.19
