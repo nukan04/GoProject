@@ -1,4 +1,4 @@
-package ass1
+package main
 
 type Observable interface {
 	subscribe(observer Observer) (bool, error)

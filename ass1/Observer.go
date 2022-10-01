@@ -1,4 +1,4 @@
-package ass1
+package main
 
 type Observer interface {
 	HandleEvent(vacanies []string)
