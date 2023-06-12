@@ -28,9 +28,9 @@ _testmain.go
 /coverage-all.out
 vendor/
 
-catalog/cmd/catalogd/catalogd
-shipping/cmd/shippingd/shippingd
-warehouse/cmd/warehoused/warehoused
+Catalog/cmd/catalogd/catalogd
+Shipping/cmd/shippingd/shippingd
+Warehouse/cmd/warehoused/warehoused
 api/cmd/apid/apid
 
 .DS_Store

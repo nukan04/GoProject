@@ -3,11 +3,9 @@ package main
 import (
 	"github.com/autodidaddict/go-shopping/api/internal/platform/config"
 	"github.com/autodidaddict/go-shopping/api/internal/service"
-	"github.com/emicklei/go-restful"
 	"github.com/micro/go-micro/client"
-	"github.com/micro/go-web"
+	"log"
 
-	"github.com/micro/go-log"
 	_ "github.com/micro/go-plugins/client/grpc"
 )
 
@@ -43,3 +41,5 @@ func main() {
 	}
 
 }
+
+// Path: api\internal\service\commerce.go

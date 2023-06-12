@@ -42,7 +42,7 @@ shipping: clean shipping-lint
 	@echo Building Shipping Service...
 	@cd shipping/cmd/shippingd && CGO_ENABLED=0 go build ${LDFLAGSS} -a -installsuffix cgo -o shippingd main.go
 
-all: warehouse catalog shipping api
+all: Warehouse Catalog Shipping api
 
 catalog-proto:
 	@cd catalog/proto && protoc --go_out=plugins=micro:. catalog.proto

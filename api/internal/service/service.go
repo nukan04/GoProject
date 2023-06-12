@@ -2,11 +2,6 @@ package service
 
 import (
 	stderrors "errors"
-	"github.com/autodidaddict/go-shopping/catalog/proto"
-	"github.com/autodidaddict/go-shopping/shipping/proto"
-	"github.com/autodidaddict/go-shopping/warehouse/proto"
-	"github.com/emicklei/go-restful"
-	"github.com/micro/go-log"
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/errors"
 	"golang.org/x/net/context"
@@ -14,9 +9,9 @@ import (
 )
 
 const (
-	catalogService   = "go.shopping.srv.catalog"
-	shippingService  = "go.shopping.srv.shipping"
-	warehouseService = "go.shopping.srv.warehouse"
+	catalogService   = "go.shopping.srv.Catalog"
+	shippingService  = "go.shopping.srv.Shipping"
+	warehouseService = "go.shopping.srv.Warehouse"
 )
 
 type CommerceService struct {
